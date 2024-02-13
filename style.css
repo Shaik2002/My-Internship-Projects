@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Inria+Sans:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ephesis', cursive;
+font-family: 'Inria Sans', sans-serif;
+}
+
+header {
+  background-color: #424242;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  align-items: flex;
+  flex-direction: row;
+}
+
+nav {
+  margin-top: 30px;
+}
+
+nav button {
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+main{
+  color: #424242;
+}
+.pricing-plans {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.plan {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  width: 30%;
+}
+
+.plan h2 {
+  color: #333;
+}
+main h1{
+  align-content: center;
+  padding-top: 15px;
+}
+.price {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.plan ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.plan ul li {
+  margin-bottom: 5px;
+}
+
+.toggle-btn {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background-color: #0056b3;
+}
+
+
+footer {
+  font-family: 'Ephesis', cursive;
+  font-family: 'Inria Sans', sans-serif;
+  background-color: #424242;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.contactInfo {
+  margin-top: 10px;
+}
+
+.contactInfo h3 {
+  margin-bottom: 15px;
+}
+
+.contactInfo p {
+  margin: 5px 0;
+}
